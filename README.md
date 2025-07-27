@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+📽️ Movie Flix - React Native App
+Welcome to Movie Flix, a sleek and modern React Native mobile app that lets users browse movies, view detailed information, and explore current and upcoming trending titles.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Built with Expo + NativeWind + TMDB API + Appwrite, Movie Flix delivers a responsive and visually engaging movie experience for mobile users.
 
-## Get started
+🚀 Features
+🎬 Browse Popular & Trending Movies
 
-1. Install dependencies
+🔍 Search for your favorite titles
 
-   ```bash
-   npm install
-   ```
+📝 View detailed movie info including:
 
-2. Start the app
+-Poster
 
-   ```bash
-   npx expo start
-   ```
+-Title, Release Year, Duration
 
-In the output, you'll find options to open the app in a
+-Ratings (from TMDB)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-Budget & Revenue
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-Overview, Genres, and Production Companies
 
-## Get a fresh project
+💾 Save favorite movies (local state or future Firebase integration)
 
-When you're ready, run:
+🌙 Beautiful dark mode UI with NativeWind
 
-```bash
-npm run reset-project
-```
+🔙 Go-back navigation for smooth UX
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🧑‍💻 Tech Stack
+React Native
 
-## Learn more
+Expo
 
-To learn more about developing your project with Expo, look at the following resources:
+TypeScript
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Tailwind CSS / NativeWind
 
-## Join the community
+Appwrite for Database
 
-Join our community of developers creating universal apps.
+TMDB API
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Router for navigation
+
+
+📦 Installation
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/WinningCloud/Movie_flix_React_Native_App.git
+cd Movie_flix_React_Native_App
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Add Your API Key
+Create a .env file in the root directory and add your TMDB API key:
+
+env
+Copy
+Edit
+TMDB_API_KEY=your_tmdb_api_key_here
+💡 If you're using expo-constants to load .env, make sure the babel.config.js and metro.config.js are configured properly.
+
+4. Start the App
+bash
+Copy
+Edit
+npx expo start
+📁 Folder Structure
+php
+Copy
+Edit
+├── app/
+│   ├── (tabs)/         # Tab screens (Home, Search, Saved)
+│   ├── movies/         # Movie detail screen
+│   └── _layout.tsx     # Router layout
+├── components/         # Reusable UI components
+├── constants/          # Icons, Images
+├── services/           # API logic and fetch helpers
+├── types/              # Custom TypeScript interfaces
+├── tailwind.config.js  # NativeWind config
+├── global.css
+✅ To-Do (Future Features)
+🔐 User authentication (Firebase)
+
+❤️ Save favorites to cloud
+
+🎞️ Watch trailers (YouTube integration)
+
+📱 Android/iOS builds & store publishing
+
+🙌 Credits
+Movie data powered by TMDB API
+
+Icons and UI inspired by modern movie apps and design trends
+
+📄 License
+This project is licensed under the MIT License.
