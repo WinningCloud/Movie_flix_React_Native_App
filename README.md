@@ -26,6 +26,14 @@ Built with Expo + NativeWind + TMDB API + Appwrite, Movie Flix delivers a respon
 
 🔙 Go-back navigation for smooth UX
 
+![photo_2025-07-27_14-33-20](https://github.com/user-attachments/assets/bf24d51c-ac93-473d-89eb-ccb7d4eb4c22)
+![photo_2025-07-27_14-33-25](https://github.com/user-attachments/assets/39a9ca17-5559-49c1-865a-f99fbe6c83e4)
+![photo_2025-07-27_14-33-24](https://github.com/user-attachments/assets/7d5bc000-016f-49a0-adbb-c29e7aefc853)
+![photo_2025-07-27_14-33-20](https://github.com/user-attachments/assets/899dde91-4dca-4ce1-805f-2d5c613171a6)
+
+
+
+
 🧑‍💻 Tech Stack
 React Native
 
