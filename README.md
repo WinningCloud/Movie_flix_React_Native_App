@@ -1,6 +1,8 @@
 📽️ Movie Flix - React Native App
 Welcome to Movie Flix, a sleek and modern React Native mobile app that lets users browse movies, view detailed information, and explore current and upcoming trending titles.
 
+Download now: https://github.com/WinningCloud/Movie_flix_React_Native_App/releases/download/v1.0/Movie-flix.apk
+
 Built with Expo + NativeWind + TMDB API + Appwrite, Movie Flix delivers a responsive and visually engaging movie experience for mobile users.
 
 🚀 Features
